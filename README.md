@@ -8,7 +8,7 @@ If you have any issue or idea to submit, feel free to do so in the issues page o
 Sofos is a bot made in order to help people translate from greek to other languages, and is currently available on telegram.
 
 Its main features are:
-*Integration with perseus' analysis
-*Integration with witionary translations
-*Integration with bing translations for italian
-*Support for community translations
+1. Integration with perseus' analysis
+1. Integration with witionary translations
+1. Integration with bing translations for italian
+1. Support for community translations
