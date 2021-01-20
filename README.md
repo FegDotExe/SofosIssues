@@ -12,3 +12,7 @@ Its main features are:
 1. Integration with witionary translations
 1. Integration with bing translations for italian
 1. Support for community translations
+
+## About ads
+
+Since money won't rain from the sky, I built a coin system, and I plan on adding ads or a paid purchases system in order to gain something from all the time I spent and I'm still spending on this project
