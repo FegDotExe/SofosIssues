@@ -1,0 +1,353 @@
+{
+    "clog_a0.4":
+    {
+        "0":"<b>—Features—</b>\nAdded settings (and complete support for them with inline keyboards)\nAdded language support (for italian, now written alongside english)\nAdded support for exclamations, pronouns, articles, conjunctions, adverbs, adjectives, particles, prepositions\nAdded /help command, which displays info for every command\nAdded support for all greek special characters\nAdded /keyboard, which displays normal and greek correspondence\nImproved the /start command to first let the user choose a language, and then introduct him/her to the bot\nPainfully added pages for greek search. You can change the maximum amount of analisyses displayed in a page in /settings to best fit your device's dimensions\n<b>—Technical—</b>\nAdded support for telegram.ext package (Which enables support for inline keyboards and push updates)\nDrastically improved console/log output, making debug REALLY easier\nAdded support for inline keyboards, making things faster and simpler for users\nImproved the to_greek method, which now works with all the characters\nFixed a terrible bug which caused serious problems if a user messaged the bot without having ever used the command /start\nAdded defense against sql injections and fixed some big bugs caused by this addition\nFixed a reliability issue, beacuse of which if you searched a word for the first time ever (=it was not in the database), it would display data differently from all the other times\n<b>—Planned—</b>\nImplementing better maiuscle substitution\nDialect support (maybe maybe maybe)\nAD SUPPORT",
+        "1":"<b>—Caratteristiche—</b>\nAggiunta delle impostazioni (e supporto completo con tastiere inline)\nAggiunta del supporto delle lingue (per l’italiano, ora scritto insieme all’inglese)\nAggiunta del supporto per esclamazioni, pronomi, articoli, congiunzioni, avverbi, aggettivi, particelle, preposizioni\nAggiunto il comando /help, che permette la visualizzazione di info per ogni comando\nAggiunto il supporto per tutti i caratteri speciali greci\nAggiunto il comando /keyboard che permette di visualizzare le corrispondenze tra caratteri normali e greci\nMigliorato il comando /start che permette prima all’utente di scegliere la lingua e successivamente al bot di introdursi\nDolorosamente aggiunte le pagine per la ricerca in greco. Puoi cambiare il numero di analisi per pagina con /settings per adattarsi alle dimensioni del tuo device\n<b>—Techniche—</b>\nSupporto per il package telegram.ext (che abilita il supporto per le tastiere inline ed aggiornamenti push)\nMiglioramento drastico del log di output, che rende il debug molto più semplice\nAggiunta del supporto per le tastiere inline, che rendono le cose più semplici e veloci per gli utenti\nMiglioramento del metodo to_greek che ora funziona con tutti i caratteri\nSistemato un terribile bug che causava seri problemi quando l’utente messaggiava il bot senza aver mai usato il comando /start\nAggiunta della difesa contro le sql injections e sistemato un grande bug causato da questa aggiunta\nSistemato un problema di affidabilità, a causa del quale se si cercava una parola per la prima volta in assoluto (=non era nel database), il messaggio avrebbe mostrato le info in modo diverso rispetto a tutte le altre volte\n<b>—Pianificate—</b>\nImplementare una migliore sostituzione delle maiuscole\nSupporto dei dialetti (forse forse forse)\nSUPPORTO DELLE PUBBLICITÀ"
+    },
+    "clog_b0.1":
+    {
+        "0":"<b>-Features-</b>\nAdded translations: you can submit one through the /submit command, and you can see them by using the \"Show tranlsations\" button under each analysis.\nAdded coins: you spend a coin every time you search for a word and find a successful result, and you can get them through /submit and /invite. You can display how many coins you have using /coins.\nAdded complete support for greek letters.\n\n<b>-Technical-</b>\nFixed comunication bugs.\nAdded a way for admins to notify users about something.\nSimplified and documented MANY tasks.\n\n<b>-Planned-</b>\nSupport for ads.",
+        "1":"<b>-Caratteristiche-</b>\nAggiunte le traduzioni: puoi registrarne una usando il comando /submit, e puoi vederle usando il bottone \"Mostra traduzioni\" sotto ad ogni analisi.\nAggiunte le monete: spendi una moneta ogni volta che cerchi una parola e trovi un risultato, e guadagnano usando /submit e /invite. Puoi mostrare quante monete hai usando /coins.\nAggiunto supporto completo per lettere greche.\n\n<b>-Tecniche-</b>\nSistemati bug di comunicazione.\nAggiunto un modo per gli admin per notificare gli utenti riguardo a qualcosa.\nSemplificato e documentato MOLTI task.\n\n<b>-Pianificate-</b>\nSupporto per la pubblicità."
+    },
+    "clog_b0.2":
+    {
+        "0":"<b>-Features-</b>\nYou can now deactivate notifications for automatic messages through /settings.\nChangelog now is a navigable list, meaning you will be able to see old updates too.\n\n<b>-Technical-</b>\nBegan integrating localization for analysis, which will lead to more customizability.\nImproved automatic messages.\nAdded some minor exception catchers.\nTested some solutions for random downtime.\n\n<b>—Planned—</b>\nSupport for ads, of course.\nLocalization for analysis.\nA \"latest\" command, showing the latest translations for everyone to see.",
+        "1":"<b>-Caratteristiche-</b>\nOra puoi disattivare le notifiche per i messaggi automatici usando /settings.\nI changelog sono ora una lista esplorabile, ciò significa che potrai vedere anche i vecchi aggiornamenti.\n\n<b>-Tecniche-</b>\nIniziato ad implementare la localizzazione per le analisi, che porterà maggiore personalizzabilità.\nMigliorati i messaggi automatici.\nAggiunti dei minori catcher di eccezioni.\nTestate nuove soluzioni per downtime a caso\n\n<b>—Pianificate—</b>\nSupporto per le pubblicità, ovviamente.\nLocalizzazione per le analisi.\nIl comando \"latest\", che mostrerà le ultime traduzioni a chiunque voglia."
+    },
+    "clog_b0.3":
+    {"0":"<b>-Features-</b>\nAdded a message under words with less than 5 translations to encourage users in submitting new ones.\nAdded useful links under the first /help page.\nAdded the /latest command, which displays the latest translations.\n\n<b>-Technical-</b>\nMade database language info storage thinner.\nMade logs lighter and faster.\nAdded a way to share text between localizations.\n\n<b>—Planned—</b>\nSupport for ads, of course.\nLocalization for analysis.",
+    "1":"<b>-Caratteristiche-</b>\nAggiunto un nuovo messaggio sotto le parole che hanno meno di 5 traduzioni per incoraggiare gli utenti a registrarne di nuove.\nAggiunto link utili sotto la prima pagina di /help\nAggiunto il comando /latest, che mostra le ultime traduzioni.\n\n<b>-Tecniche-</b>\nReso lo storage dei linguaggi nel database più sottile.\nReso i log più leggeri e veloci.\nAggiunto un modo per condividere pezzi di testo tra localizzazioni.\n\n<b>—Pianificate—</b>\nSupporto per le pubblicità, ovviamente.\nLocalizzazione per le analisi."},
+    "clog_b0.4":{
+        "0":"<b>-Features-</b>\n•Hold tight! Translations from witionary have been implemented! (meaning that most terms will already have registered versions)\n•Analysis have been improved\n•Drastically simplified the /submit command\n•Added a way to submit translations from right under the translations tab\n•Added some random hints which are shown while searching in perseus\n\n<b>-Technical-</b>\n•Fixed a bug which didn't let users choose their language\n•Added support for context data\n•Fixed alphas being rendered wrong",
+        "1":"<b>-Caratteristiche-</b>\n•Tenetevi forte! Le traduzioni da witionary sono state implementate! (significa che buona parte dei termini avrà delle traduzioni già registrate)\n•Le analisi sono state migliorate\n•Il comando /submit è stato semplificato drasticamente\n•Aggiunto un modo per registrare traduzioni direttamente dalla sezione traduzioni\n•Aggiunti dei suggerimenti che compaiono mentre si svolge una ricerca su perseus\n\n<b>-Tecniche-</b>\n•Sistemato un bug che non permetteva agli utenti di scegliere il loro linguaggio\n•Aggiunto il supporto per il context\n•Sistemato delle alfa sbagliate"
+    },
+
+    "start_0":
+    {
+        "0":"<b>Welcome to Unnamed bot!</b>\n——————————\nPlease select your prefered language\nPer favore seleziona il linguaggio che preferisici",
+        "1":"<b>Benvenuto da Unnamed bot!</b>\n——————————\nPlease select your prefered language\nPer favore seleziona il linguaggio che preferisici"
+    },
+    "start_1":
+    {
+        "0":"Welcome to Unnamed bot!\nThe purpose of this bot is to help you translating ancient languages (greek is the only one supported this far, but latin is eventually coming)\n——————————\nIf you want to learn more about what this bot can do, type /help",
+        "1":"Benvenuto da Unnamed bot!\nLo scopo di questo bot è di aiutarti a tradurre lingue antiche (il greco è l'unica supportata ad ora, ma in futuro verrà aggiunto anche il latino)\n——————————\nSe vuoi scoprire altro riguardo a cosa questo bot possa fare, scrivi /help"
+    },
+    "searching_perseus":
+    {
+        "0":"Searching for §0 in Perseus' database\n",
+        "1":"Cerco §0 nel database di Perseus\n"
+    },
+    "searching_mine":
+    {
+        "0":"Searching for §0 in my database",
+        "1":"Cerco §0 nel mio database"
+    },
+    "results":
+    {
+        "0":"Results for <i>§0</i>\n§1",
+        "1":"Risultati per <i>§0</i>\n§1"
+    },
+    "no_match":
+    {
+        "0":"Sorry, no match found for §1.\n<i>This might as well be a Perseus database error. In this case, you could visit their <a href=\"http://www.perseus.tufts.edu/hopper/morph?l=§0&la=greek\">website</a> to report the error, making the experience better for everyone.</i>",
+        "1":"Spiacente, nessun risultato trovato per §1.\n<i>Questo potrebbe anche essere un errore del database di Perseus. In questo caso, potresti visitare il loro <a href=\"http://www.perseus.tufts.edu/hopper/morph?l=§0&la=greek\">sito</a> per segnalare l'errore, rendendo l'esperienza migliore per tutti.</i>"
+    },
+    "settings_main":
+    {
+        "0":"Here are the settings",
+        "1":"Ecco le impostazioni"
+    },
+    "settings_main_language":
+    {
+        "0":"Language",
+        "1":"Linguaggio"
+    },
+    "settings_main_display":
+    {
+        "0":"Display",
+        "1":"Aspetto"
+    },
+    "settings_language":
+    {
+        "0":"Choose a language",
+        "1":"Scegli un linguaggio"
+    },
+    "settings_language_en-en":
+    {
+        "0":"•English",
+        "1":"Inglese"
+    },
+    "settings_language_it-it":
+    {
+        "0":"Italian",
+        "1":"•Italiano"
+    },
+    "notifications":{
+        "0":"Notifications",
+        "1":"Notifiche"
+    },
+    "back":
+    {
+        "0":"<Back",
+        "1":"<Indietro"
+    },
+    "next":
+    {
+        "0":"Next>",
+        "1":"Avanti>"
+    },
+    "settings_display_max-display":
+    {
+        "0":"Analisys per page",
+        "1":"Analisi per pagina"
+    },
+    "settings_display":
+    {
+        "0":"Here are the display settings.\n•Analysis per page: the amount of different analysis that will be shown in each page\n•Advanced text: display advanced data",
+        "1":"Ecco le impostazioni d'aspetto\n•Analisi per pagina=:il numero di diverse analisi che saranno mostrate in ogni pagina\n•Testo avanzato: mostra dati avanzati"
+    },
+    "advanced_text":{"0":"Display advanced data. Only for smart people who can deduce things without always needing an explenation","1":"Mostra dati avanzati. Solo per gente intelligente che può dedurre le cose senza necessitare costantemente di una spiegazione"},
+    "help_0":
+    {
+        "0":"General info\n——————————\nThis bot is a bot which will help you translating, by analyzing any ancient greek word you give it.\nTo better understand how to use this bot, feel free to navigate the list of the commands listed below.\nKnow that when a word is written [like this], it means you have to put a keyword in its place.\n\n$$links$$",
+        "1":"Info generali\n——————————\nQuesto è un bot che ti aiuterà a tradurre, analizzando qualsiasi parola greca tu gli fornisca.\nPer capire meglio come usare questo bot, Sentiti liber@ di esplorare la lista dei comandi scritta qui sotto.\nSappi che quando una parola è scritta [così], significa che al suo posto devi mettere una parola chiave.\n\n$$links$$"
+    },
+    "help_1":
+    {
+        "0":"/settings\n——————————\nBy writing /settings, the bot will reply with a panel which will let you customize your experience, by changing some settings such as the language in which the bot texts.",
+        "1":"/settings\n——————————\nScrivendo /settings, il bot risponderà con un pannello che ti permetterà di modificare la tua esperienza, cambiando alcune impostazioni come il linguaggio nel quale il bot scrive."
+    },
+    "help_2":
+    {
+        "0":"/sg\n——————————\nsg is the most important command in this bot, as it lets you search any greek word.\nYou can use it like this: /sg [greek word]\nIf you don't have any handy greek keyboard, don't worry: you can use normal letters to search in greek. To learn which letter is which, just type /keyboard\n\nEvery time you search for a word, you spend a coin. To get more informations about coins, go under the \"coins\" section.\n\nUnder each analysis you will find a \"Show translations\" button. By clicking on it, you will be able to see user-powered translations. If you see a translation that you like/dislike, you can upvote/downvote it by clicking \"Manage translations\", and then clicking on the upwards/downwards facing arrow.\n\nIf you want to submit a translation, try and write /submit (more info in the 'submit' section).\n\nYou can also register new translations by clicking on the 'add translations' button, in the translations section of a research.",
+        "1":"/sg\n——————————\nsg è il comando più importante di questo bot, poiché ti permette di cercare qualsiasi parola greca.\nLo puoi usare così: /sg [parola greca]\nSe non hai nessuna tastiera greca sottomano, non preoccuparti: puoi usare le lettere normali per cercare in greco. Per vedere quale lettera è quale, scrivi semplicemente /keyboard\n\nOgni volta che cerchi una parola, spendi una moneta. Per avere più informazioni riguardo le monete, vai sotto la sezione \"coins\".\n\nSotto ad ogni analisi troverai un bottone con suscritto \"Mostra traduzioni\". Cliccandoci, potrai vedere traduzioni fornite dagli utenti. Se vedi una traduzione che ti piace/non ti piace, puoi upvotarla/downvotarla cliccando \"Gestisci le traduzioni\", e poi cliccando la freccia che punta verso su/giù.\n\nSe vuoi registrare una traduzione, prova a scrivere /submit (più informazioni nella sezione 'submit')\n\nPuoi anche aggiungere nuove traduzioni cliccando sul bottone 'aggiungi traduzioni', sotto la sezione traduzioni di una ricerca"
+    },
+    "help_3":
+    {
+        "0":"/changelog\n——————————\nBy typing /changelog, you will view a list of all the done and planned changes this version of the bot brought to the table.",
+        "1":"/changelog\n——————————\nScrivendo /changelog, vedrai una lista di tutti i cambiamenti fatti e futuri che questa versione ha portato in gioco."
+    },
+    "help_4":
+    {
+        "0":"/invite\n——————————\ninvite allows you to invite new users to the bot: if they had never used the invite command to show they had been invited by someone, they'll be able to accept your invitation.\n\n<b>What's the point of inviting someone?</b> You will get 30 coins per invited person, and the person you invited will get 50 coins!\n\n<b>How do I invite someone?</b> Well, just type /invite, without adding anything to it, and in the last line of the reply you will find the exact command you will have to send to your friends. They will just have to send it to the bot. If they accept your invitation successfully, you will get a notification.",
+        "1":"/invite\n——————————\ninvite ti permette di invitare nuovi utenti al bot: se non hanno mai utilizzato il comando per mostrare che erano stati invitati da qualcuno, potranno accettare il tuo invito.\n\n<b>Qual è lo scopo di invitare qualcuno?</b> Guadagnerai 30 monete per ogni persona invitata, e la persona che hai invitato guadagnerà 50 monete!\n\n<b>Come invito qualcuno?</b> Beh, scrivi semplicemente /invite, senza aggiungerci nulla, e nell'ultima linea della risposta troverai l'esatto comando che dovrai mandare ai tuoi amici. Loro dovranno semplicemente mandarlo al bot. Se avranno accettato il tuo invito con successo, riceverai una notifica."
+    },
+    "help_5":
+    {
+        "0":"/coins\n——————————\ncoins is a command that will show you how many coins you possess, as well as all the ways to gain more of them",
+        "1":"/coins\n——————————\ncoins è un comando che ti mostra quante monete possiedi, insieme a tutti i modi per ottenerne altre"
+    },
+    "help_6":
+    {
+        "0":"/submit\n——————————\nsubmit is a command that will allow you to add translations to lemmas, and get reward coins if your translations are appreciated by other users.\n\n<b>How many coins will I get?</b> you will get a coin for each upvote, a day after the upvote is given",
+        "1":"/submit\n——————————\nsubmit è un comando che ti permetterà di aggiungere traduzioni ai lemmi, e di ottenere monete di ricompensa se le tue traduzioni sono apprezzate dagli altri utenti\n\n<b>Quante monete guadagnerò?</b> guadagnerai una moneta per ogni upvote, un giorno dopo la registrazione dell'upvote"
+    },
+    "help_7":
+    {
+        "0":"/latest\n——————————\nShow the latest translations, so that you can help moderate the community.\nAnd in case you do, here's a sincere ♥︎ from the developer.",
+        "1":"/latest\n——————————\nMostra le ultime traduzioni, così che tu possa aiutare a moderare la comunità.\nE in caso tu lo faccia, ecco un sincero ♥︎ dallo sviluppatore."
+    },
+    "keyboard":
+    {
+        "0":"Here's the correspondence between greek and normal characters:\na→α\nb→β\ng→γ\nd→δ\ne→ε\nz→ζ\nh→η\nq→θ\ni→ι\nk→κ\nl→λ\nm→μ\nn→ν\nc→ξ\no→ο\np→π\nr→ρ\ns→σ\nt→τ\nu→υ\ny→ψ\nx→χ\nf→φ\nw→ω\nIf you want to add some special characters, just add these symbols after a letter, in whichever order:\n)→᾽→ἀ\n(→῾→ἁ\n/→´→ά\n\\→`→ὰ\n|→ι→ᾳ\n=→῀→ᾶ\nHere's an example: a)\\|→ᾂ",
+        "1":"Ecco la corrispondenza tra i caratteri normali e greci:\na→α\nb→β\ng→γ\nd→δ\ne→ε\nz→ζ\nh→η\nq→θ\ni→ι\nk→κ\nl→λ\nm→μ\nn→ν\nc→ξ\no→ο\np→π\nr→ρ\ns→σ\nt→τ\nu→υ\ny→ψ\nx→χ\nf→φ\nw→ω\nSe vuoi aggiungere caratteri speciali, apponi questi simboli alle lettere, in qualsiasi ordine:\n)→᾽→ἀ\n(→῾→ἁ\n/→´→ά\n\\→`→ὰ\n|→ι→ᾳ\n=→῀→ᾶ\nEcco un esempio: a)\\|→ᾂ"
+    },
+    "A_english":"English","A_italian":"Italiano",
+    "O_10":"§010","O_15":"§115","O_20":"§220",
+    "invite":
+    {
+        "0":"<u>You can gain 30 coins</u> if a friend, after entering the bot, types /invite [your id] (replacing [your id] with your id, which is below)\nAlso, the person you invited will get 50 extra coins\nYour id: <b>§0</b>\n\nYour friend will have to write this exact command:\n/invite §0",
+        "1":"<u>Puoi guadagnare 30 monete</u> se un amico, dopo essere entrato nel bot, scrive /invite [il tuo id] (rimpiazzando [il tuo id] con il tuo id, che è sotto)\nIn più, la persona che hai invitato riceverà 50 monete extra\nIl tuo id: <b>§0</b>\n\nIl tuo amico dovrà scrivere questo esatto comando:\n/invite §0"
+    },
+    "invited":
+    {
+        "0":"You successfully accepted the invitation, and gained <b>50</b> extra coins!",
+        "1":"Hai accettato con successo l'invito, e hai guadagnato <b>50</b> monete extra!"
+    },
+    "invite_acc":
+    {
+        "0":"Someone accepted your invitation, and you gained <b>30</b> extra coins!",
+        "1":"Qualcuno ha accettato il tuo invito, e hai guadagnato <b>30</b> monete extra!"
+    },
+    "already_invited":
+    {
+        "0":"It seems as if you had already accepted someone else's invite. You can only be invited once to the bot",
+        "1":"Sembra che tu abbia già accettato l'invito di qualcun altro. Puoi essere invitat@ solo una volta al bot"
+    },
+    "not_user":
+    {
+        "0":"The data you provided doesn't belong to an user. Ask the person who sent you this id to verify it is correct",
+        "1":"I dati che hai fornito non appartengono ad un utente. Chiedi alla persona che ti ha inviato questo id di verificare che sia corretto"
+    },
+    "unvalid_id":
+    {
+        "0":"The id you provided is not valid (meaning it contains non-number characters)",
+        "1":"L'id che hai fornito non è valido (significa che contiene caratteri non-numerici)"
+    },
+    "invite_yourself":
+    {
+        "0":"You can't invite yourself",
+        "1":"Non puoi invitare te stess@"
+    },
+    "coins":
+    {
+        "0":"You currently have <b>§0 coins</b>\n\nYou can get coins through /invite and through /submit (try and type those commands to get more info)",
+        "1":"Attualmente possiedi <b>§0 monete</b>\n\nPuoi ottenere monete attraverso /invite e attraverso /submit (prova a scrivere quei comandi per ottenere più informazioni)"
+    },
+    "no_coins":
+    {
+        "0":"You finished your coins. This meaning you won't be able to use /sg until you get some more.\n\nType /coins to find out all the ways to gain coins",
+        "1":"Hai finito le tue monete. Ciò significa che non potrai usare /sg finchè non ne otterrai altre.\n\nScrivi /coins per scoprire tutti i modi per ottenere monete"
+    },
+    "show_translation":
+    {
+        "0":"Show translations",
+        "1":"Mostra traduzioni"
+    },
+    "show_analysis":
+    {
+        "0":"Show analysis",
+        "1":"Mostra analisi"
+    },
+    "no_translations":
+    {
+        "0":"<i>It seems as if there were no available translations</i>",
+        "1":"<i>Sembra che non ci fossero traduzioni disponibili</i>"
+    },
+    "submit":{
+        "0":"In order to submit a new translation, you will need to use this format:\n/submit t [lemma]_[condition]_[translation]\n\nYou will have to replace the words between parenthesys with the acutal word, so for example:\n/submit t καλός__beautiful\n\nNotice how i left the \"condition\" slot empty: you can do this in order to not set any condition for that specific translation. Note that by condition I mean some translations which only work with a specific case, so for example:\n/submit t πρός_+gen_to (somewhere)\n\nOther users will be able to upvote/downvote your translations, and <u>you will get a coin for every upvote you get</u>",
+        "1":"Per aggiungere una nuova traduzione, dovrai usare questo formato:\n/submit t [lemma]_[condizione]_[traduzione]\n\nDovrai sostituire le parole tra parentesi con le parole vere e proprie, quindi ad esempio:\n/submit t καλός__bello\n\nNota come io abbia lasciato lo slot \"condizione\" vuoto: lo puoi fare per non stabilire alcuna condizione per quella specifica traduzione. Nota che per condizione intendo alcune traduzioni che funzionano solo con uno specifico caso, quindi ad esempio:\n/submit t πρός_+gen_verso (qualche luogo)\n\nGli altri utenti saranno in grado di upvotare/downvotare le tue traduzioni, e <u>guadagnerai una moneta per ogni upvote che ottieni</u>"
+    },
+    "submission_successful":{
+        "0":"Your submission was successfully recorded",
+        "1":"La tua submission è stata registrata con successo"
+    },
+    "duplicate_translation":{
+        "0":"This translation was already submitted by someone else.\nIf you want to submit a different translation for this word, just send it now!\nIf you changed your mind, type /cancel",
+        "1":"Questa traduzione è già stata registrata da qualcun altro.\nSe vuoi registrare una traduzione diversa per questa parola, mandala ora!\nSe hai cambiato idea, scrivi /cancel"
+    },
+    "unvalid_lemma":{
+        "0":"The lemma you were trying to register a translation for is not in the database. I recommend you first search the lemma, so that it gets registered, and only then you submit a translation for it.",
+        "1":"Il lemma del quale stavi cercando di registrare una traduzione non è nel database. Consiglio che prima si cerchi il lemma, in modo che venga registrato, e solo poi vi si registri una traduzione"
+    },
+    "wait_for_submissions":{
+        "0":"You submitted too many translations too fast. Please wait a bit before submitting another translation",
+        "1":"Hai registrato troppe traduzioni troppo velocemente. Per favore aspetta un po' prima di registrare un'altra traduzione"},
+    "manage_tran":{
+        "0":"Manage translations",
+        "1":"Gestisci le traduzioni"
+    },
+    "manage_tran_for":{
+        "0":"Manage translations for §0\n<i>UT:§1</i>",
+        "1":"Gestisci le traduzioni per §0\n<i>UT:§1</i>"
+    },
+    "got_translation_coins":
+    {
+        "0":"You just got §0 coins from the translations you submitted",
+        "1":"Hai appena ottenuto §0 monete dalle traduzioni che hai registrato"
+    },
+    "24h_passed_translation":
+    {
+        "0":"More than 24 hours passed since you registered this vote. It is now stable, and can't be modified",
+        "1":"Sono passate più di 24 ore da quando hai registrato questo voto. Ora è stabile, e non può essere modificato"
+    },
+    "translation_removed":
+    {
+        "0":"This translation got removed",
+        "1":"Questa traduzione è stata rimossa"
+    },
+    "links":{
+        "0":"Here's a list of useful links:\n<a href=\"https://forms.gle/qhoaqqgN2KWRs2TA7\">•Suggest a name for the bot</a>\n<a href=\"https://t.me/ancientbotupdates\">•Telegram update channel</a>\n<a href=\"https://forms.gle/ccdo78VrTCNUz8AbA\">•Suggest anything</a>",
+        "1":"Ecco una lista di link utili:\n<a href=\"https://forms.gle/qhoaqqgN2KWRs2TA7\">•Suggerisci un nome per il bot</a>\n<a href=\"https://t.me/ancientbotupdates\">•Canale telegram d'aggiornamento</a>\n<a href=\"https://forms.gle/ccdo78VrTCNUz8AbA\">•Suggerisci qualsiasi cosa</a>"
+    },
+    "bot_updated":{
+        "0":"The bot just got updated. Try writing /changelog to see what's new!",
+        "1":"Il bot è appena stato aggiornato. Prova a scrivere /changelog per vedere cosa c'è di nuovo!"
+    },
+    "bot_stopped":{
+        "0":"The bot will now be stopped.",
+        "1":"Il bot verrà ora stoppato."
+    },
+    "bot_started":{
+        "0":"The bot is now online",
+        "1":"Il bot è ora online"
+    },
+    "bot_test":{
+        "0":"This message was sent as a test. Sorry if it bothers you.",
+        "1":"Questo messaggio è stato mandato come test. Scusa se ti disturba."
+    },
+    "automatic_message":
+    {
+        "0":"<i>(Message automatically sent to each user). You can deactivate notifications for automatic messages through /settings</i>",
+        "1":"<i>(Messaggio mandato automaticamente ad ogni utente).\nPuoi disattivare le notifiche per i messaggi automatici con /settings</i>"
+    },
+    "variable_0":"§0","variable_1":"§1","variable_2":"§2","variable_3":"§3","variable_4":"§4","variable_5":"§5",
+    "up":"↑","down":"↓",
+    "v0_yes":{
+        "0":"§0Yes",
+        "1":"§0Sì"
+    },
+    "v1_no":"§1No",
+
+    "adj":{"0":"adj","1":"agg"},"article":{"0":"article","1":"articolo"},"subj":{"0":"subj","1":"cong"},"1st":{"0":"1st","1":"1ª"},"2nd":{"0":"2nd","1":"2ª"},"3rd":{"0":"3rd","1":"3ª"},"act":{"0":"act","1":"att"},"sg":{"0":"sing","1":"sing"},"exclam":{"0":"exclam","1":"esclam"},"conj":{"0":"conj","1":"congiunzione"},"noun":{"0":"noun","1":"sostant"},
+
+    "little_translations":{
+        "0":"\n<i>There seem to be very little translations for this word. If you want, feel free to use /submit to submit some new ones.</i>",
+        "1":"\n<i>Sembra che ci siano davvero poche traduzioni per questa parola. Se vuoi, sentiti liber@ di usare /submit per registrarne di nuove.</i>"
+    },
+    "latest_translations":{
+        "0":"Here are the lemmas of latest translations:\n",
+        "1":"Ecco i lemmi delle ultime traduzioni:\n"
+    },
+    "generated_translations":{
+        "0":"\n<i>The underlined translations are all from en.wiktionary.org.</i>",
+        "1":"\n<i>Le traduzioni sottolineate vengono da en.wiktionary.org e sono state tradotte con google translate.</i>"
+    },
+    "perseus_not_responding":{
+        "0":"Sorry, it seems Perseus is not responding (attempt number §0). The bot will now try and search again.",
+        "1":"Spiacente, sembra che Perseus non stia rispondendo (tentativo numero §0). Il bot porverà ora a cercare di nuovo."
+    },
+    "perseus_not_responded":{
+        "0":"Sadly, the search encountered an error five times in a row. Please try to search this term again.",
+        "1":"Sfortunatamente, la ricerca ha incontrato un errore cinque volte di fila. Per favore, prova a cercare di nuovo questo termine."
+    },
+    "succ_tran_amo":{"0":"\n<i>§0/§1 translations registered successfully</i>","1":"\n<i>§0/§1 traduzioni registrate con successo</i>"},
+    "send_lemma":{
+        "0":"Ok, if you want to submit a translation, send me the lemma!\nIf you changed your mind, type /cancel",
+        "1":"Ok, se vuoi aggiungere una traduzione, mandami il lemma!\nSe hai cambiato idea, mandami /cancel"
+    },
+    "send_mail":{
+        "0":"Perfect, the lemma (§0) was in the database. Now send a translation for this lemma.\nIf you changed your mind, type /cancel",
+        "1":"Ottimo, il lemma (§0) era nel database. Ora mandami una traduzione per questo lemma.\nSe hai cambiato idea, mandami /cancel"
+    },
+    "wrong_lemma":{
+        "0":"It seems as if the lemma you sent was not in the database. Make sure you used greek characters and got the special characters right, and then send the lemma again.\n(I suggest copying and pasting lemmas from an analysis)\nIf you changed your mind, type /cancel",
+        "1":"Sembra che il lemma che hai mandato non sia nel database. Assicurati di aver usato caratteri greci e di aver messo correttamente tutti i caratteri speciali, e poi manda di nuovo il lemma.\n(Suggerisco di copiare e incollare i lemmi da un'analisi)\nSe hai cambiato idea, mandami /cancel)"
+    },
+    "quit_translation":{
+        "0":"Got out of the submission loophole!",
+        "1":"Uscito dal ciclo di registrazione!"
+    },
+    "add_tran":{
+        "0":"Add translations",
+        "1":"Aggiungi traduzioni"
+    },
+    "add_tran_for":{
+        "0":"Add translations for §0",
+        "1":"Aggiungi traduzioni per §0"
+    },
+    "settings_main_advanced_text":{"0":"Advanced text","1":"Testo avanzato"},
+    
+    "rand_intro":{"0":"\nDid you know?\n","1":"\nLo sapevi?\n"},
+    "rand_hint_0":{"0":"You can change the bot's language by using /settings","1":"Puoi cambiare la lingua del bot usando /settings"},
+    "rand_hint_1":{"0":"You can add translations to lemmas by using /submit","1":"Puoi aggiungere traduzioni ai lemmi usando /submit"},
+    "rand_hint_2":{"0":"You can display a list of all the commands by using /help","1":"Puoi far mostrare una lista di tutti i comandi usando /help"},
+    "rand_hint_3":{"0":"The bot has an official <a href=\"https://t.me/ancientbotupdates\">update channel</a>","1":"Il bot ha un <a href=\"https://t.me/ancientbotupdates\">canale ufficiale</a> di aggiornamento"},
+    "rand_hint_4":{"0":"Inviting a friend can get you 30 coins!\nLearn more by typing /invite","1":"Invitare un amico può farti guadagnare 30 monete!\nPer altre info, scrivi /invite"},
+    "rand_hint_5":{"0":"Adding ) or ( after a letter when searching will add a spirit to it!","1":"Aggiungere ) o ( dopo una lettera quando cerchi aggiungerà uno spirito ad essa!"},
+    
+    "profile_info":{"0":"Infos for profile id #§0\n\nCoins: §1","1":"Informazioni per l'id profilo #§0\n\nRuolo: <b>$$rolename_§2$$</b>\n<i>$$roleinfo_§2$$</i>\n\nMonete: §1"},
+    "rolename_0":{"0":"normal user","1":"utente normale"},"rolename_1":{"0":"admin","1":"admin"},"rolename_2":{"0":"friend","1":"amic@"},
+    "roleinfo_0":{"0":"You're a standard user of the bot\nYou use a coin every time you search for a term, and you don't have any special perk","1":"Sei un normale utente del bot\nUsi una moneta ogni volta che cerchi un termine, e non hai alcun vantaggio speciale"},"roleinfo_1":{"0":"The coolest one. If you're reading this, you're me or you're an hacker.","1":"Il più figo. Se stai leggendo questo, o sei me, oppure sei un hacker"},"roleinfo_2":{"0":"A friend of mine :3\nYour coin count won't go lower than 9, so enjoy endless coins!","1":"Un@ amic@ :3\nLa quantità delle tue monete non andrà sotto il 9, quindi goditi le monete infinite!"}
+
+}
