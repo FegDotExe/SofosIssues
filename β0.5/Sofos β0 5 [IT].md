@@ -8,7 +8,19 @@
 - Aggiunto un comando per permettere agli admin di cambiare i ruoli altrui
 - Aggiunto il comando /me, che ti permette di vedere tutte le informazioni al tuo riguardo
 - Aggiunta una nuova voce in /settings che ti permette di rimuovere gli avvertimenti (ossia i lunghi testi in corsivetto che appaiono sotto ad alcuni messaggi) se ti infastidiscono
-- Cambiate le traduzioni per rendere più leggere per gli occhi
+- Cambiate le traduzioni per renderle più leggere per gli occhi
+
+<table>
+  <tr>
+    <td><testo>Prima, con avvisi attivi</testo></td>
+    <td><testo>Ora, con avvisi spenti</testo></td>
+  </tr>
+  <tr>
+    <td> <img src="https://user-images.githubusercontent.com/40890953/110239559-e0737280-7f47-11eb-8dfc-544c15c66f8f.png"  alt="1" width=300></td>
+    <td><img src="https://user-images.githubusercontent.com/40890953/110239560-e49f9000-7f47-11eb-9ff0-4a1a8d5659d0.png" alt="3" width =300></td>
+   </tr>
+</table>
+
 - D'ora in poi i changelog saranno qui su github!
 
 # Tecniche
