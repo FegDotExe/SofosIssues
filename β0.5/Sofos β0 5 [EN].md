@@ -10,13 +10,16 @@
 - Added a new voice in /settings which allows you to remove warnings (aka the long strings in italics which appear under some texts) if they sting your eye
 - Changed the translations to make them way clearer and lighter for the eye
 
-![https://user-images.githubusercontent.com/40890953/110237162-8b7d2f80-7f3a-11eb-9932-094bcdcc3284.png](https://user-images.githubusercontent.com/40890953/110237162-8b7d2f80-7f3a-11eb-9932-094bcdcc3284.png)
-
-Before, with warnings on
-
-![https://user-images.githubusercontent.com/40890953/110237172-98018800-7f3a-11eb-8019-7f8278552dd6.png](https://user-images.githubusercontent.com/40890953/110237172-98018800-7f3a-11eb-8019-7f8278552dd6.png)
-
-Now, with warnings off
+<table>
+  <tr>
+    <td><testo>Before, with warnings on</testo></td>
+    <td><testo>Now, with warnings off</testo></td>
+  </tr>
+  <tr>
+    <td> <img src="https://user-images.githubusercontent.com/40890953/110237162-8b7d2f80-7f3a-11eb-9932-094bcdcc3284.png"  alt="1" width=300></td>
+    <td><img src="https://user-images.githubusercontent.com/40890953/110237172-98018800-7f3a-11eb-8019-7f8278552dd6.png" alt="3" width =300></td>
+   </tr>
+</table>
 
 - Changelogs from now on will be here on github!
 
